@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 208, 238);
+    font-family: exo;
+}
+
+aside {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(45, 2, 85);
+    color: rgb(112, 37, 182);
+    float: left;
+    padding: 25px;
+    padding-top: 50px;
+    text-align: center;
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    padding: 15% 4% 15% 3%;
+    float: left;
+}
+
+#perfil {
+    width: 50%;
+    border-radius: 50%;
+    border: 6px solid rgb(112, 37, 182);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+ol, li, a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(112, 37, 182);
+    margin-bottom: 10px;
+}
+
+small {
+    color: gray;
+    font-size: 16px;
+}
+
+#icons {
+    margin-top: 30px;
+}
+
+#listord {
+    list-style-type: lower-alpha;
+    list-style: upper-alpha;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(73, 73, 73);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+obj {
+    font-size: 20px;
+    text-transform: none;
+    text-align: justify;
+    padding-right: 40%;
+}
